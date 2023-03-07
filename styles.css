@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #F2F2F2;
+  }
+  
+  h1 {
+	font-size: 36px;
+	margin-top: 50px;
+  }
+  
+  #input-container {
+	margin-top: 50px;
+	display: inline-block;
+  }
+  
+  #name-input {
+	width: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+  }
+  
+  #spin-button {
+	padding: 5px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  #spin-button:hover {
+	background-color: #3E8E41;
+  }
+
+  #add-name-button{
+	padding: 5px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+
+  #add-name-button:hover {
+	background-color: #3E8E41;
+  }
+  
+  #winner-container {
+	margin-top: 50px;
+	display: none;
+  }
+  
+  #winner-name {
+	font-size: 48px;
+	margin-top: 20px;
+  }
+  
+  .shake {
+	animation-name: shake;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+	0% { transform: translateX(0); }
+	25% { transform: translateX(10px); }
+	50% { transform: translateX(0); }
+	75% { transform: translateX(-10px); }
+	100% { transform: translateX(0); }
+  }
+  
